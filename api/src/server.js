@@ -1,6 +1,6 @@
 const gql = require ('graphql-tag')
 const { ApolloServer } = require('apollo-server')
-const { generateRamdomUsers } = require('./db/users')
+const { generateRamdomUsers } = require('./db/user')
 const typeDefs = require('./schema')
 const resolvers = require('./resolvers')
 

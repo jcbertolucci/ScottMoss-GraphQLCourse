@@ -11,7 +11,8 @@
   "dependencies": {
     "apollo-server": "^2.10.1",
     "graphql-tag": "^2.10.3",
-    "lowdb": "^1.0.0"
+    "lowdb": "^1.0.0",
+    "nanoid": "^2.1.11"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
