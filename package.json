@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "apollo-server": "^2.10.1",
-    "graphql-tag": "^2.10.3"
+    "graphql-tag": "^2.10.3",
+    "lowdb": "^1.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"

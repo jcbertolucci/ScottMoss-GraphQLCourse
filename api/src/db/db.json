@@ -1,0 +1,10 @@
+{
+  "user": {
+      "id": "LKDAJIODAUCAOMNMA",
+      "name": "User one",
+      "email": "user01@gmail.com",
+      "avatar": "http://user01-avatar.com",
+      "message": "Hi I'm user one"
+  },
+  "beer": []
+}
