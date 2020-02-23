@@ -32,6 +32,4 @@ const createUserModel = db => {
   }
 }
 
-module.exports = {
-  createUserModel
-}
+module.exports = createUserModel

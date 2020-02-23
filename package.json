@@ -6,13 +6,14 @@
   "author": "Julio C. Bertolucci",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon node src/server.js"
+    "server": "nodemon node api/src/server.js"
   },
   "dependencies": {
     "apollo-server": "^2.10.1",
     "graphql-tag": "^2.10.3",
     "lowdb": "^1.0.0",
-    "nanoid": "^2.1.11"
+    "nanoid": "^2.1.11",
+    "node-fetch": "^2.6.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"

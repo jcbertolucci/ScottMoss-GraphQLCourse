@@ -6,5 +6,12 @@
     "avatar": "string",
     "message": "string",
     "friends": "array"
+  },
+  "beer": {
+    "id": "string",
+    "name": "string",
+    "brewery": "string",
+    "type": "string",
+    "style": "string"
   }
 }

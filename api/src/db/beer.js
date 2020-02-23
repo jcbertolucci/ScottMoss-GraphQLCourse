@@ -17,21 +17,25 @@ const createBeerModel = db => {
 
       db.get('beer')
         .push(newbeer)
+
+      return newbeer
     },
     update(beer) {
       db.get('beer')
         .find({ id: beer.id })
         .assign(beer)
         .write()
+      
+      return beer
     },
     delete(beer) {
       db.get('beer')
         .remove({ id: beer.id })
         .write()
+      
+      return beer
     }
   }
 }
 
-module.exports = {
-  createBeerModel
-}
+module.exports = createBeerModel
